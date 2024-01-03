@@ -1,0 +1,145 @@
+@media screen and (max-width:998px){
+     /* .sec-hero{
+        flex-direction: column;
+     } */
+     .hero-img{
+        width: 200px;
+        height: 350px;
+
+     }
+     .build-text{
+        font-size: 3.2rem;
+     }
+     .build-text1{
+        font-size: 0.8rem;
+     }
+}
+@media screen and (max-width:700px) {
+    .hero-img{
+        width: 165px;
+        height: 300px;
+
+     }
+     .build-text{
+      font-size: 2.8rem;
+   }
+   .build-text1{
+      font-size: 0.7rem;
+   }
+    
+}
+@media screen and (max-width:550px) {
+    .hero-img{
+        width: 165px;
+        height: 300px;
+
+     }
+     .build-text{
+      font-size: 2.6rem;
+   }
+   .build-text1{
+      font-size: 0.7rem;
+   }
+    
+}
+
+@media screen and (max-width:440px) {
+   /* .sec-hero{
+      flex-direction: column;
+   } */
+   /* .hero-right{
+      order: 2;
+   }
+   .hero-left{
+      order: 2;
+   } */
+
+   .hero-img{
+      width: 130px;
+      height: 230px;
+
+   }
+   .build-text{
+    font-size: 2.3rem;
+ }
+ .build-text1{
+    font-size: 0.5rem;
+ }
+}
+
+
+@media screen and (max-width:400px) {
+   /* .sec-hero{
+      flex-direction: column;
+   } */
+   /* .hero-right{
+      order: 2;
+   }
+   .hero-left{
+      order: 2;
+   } */
+
+   .hero-img{
+      width: 130px;
+      height: 230px;
+
+   }
+   .build-text{
+    font-size: 1.8rem;
+ }
+ .build-text1{
+    font-size: 0.5rem;
+ }
+}
+
+
+@media screen and (max-width:315px) {
+   /* .sec-hero{
+      flex-direction: column;
+   } */
+   /* .hero-right{
+      order: 2;
+   }
+   .hero-left{
+      order: 2;
+   } */
+
+   .hero-img{
+      width: 115px;
+      height: 200px;
+
+   }
+   .build-text{
+    font-size: 1.4rem;
+ }
+ .build-text1{
+   margin-top: 6px;
+    font-size: 0.3rem;
+ }
+}
+
+
+@media screen and (max-width:270px) {
+   /* .sec-hero{
+      flex-direction: column;
+   } */
+   /* .hero-right{
+      order: 2;
+   }
+   .hero-left{
+      order: 2;
+   } */
+
+   .hero-img{
+      width: 100px;
+      height: 180px;
+
+   }
+   .build-text{
+    font-size: 1.1rem;
+ }
+ .build-text1{
+   margin-top: 6px;
+    font-size: 0.2rem;
+ }
+}

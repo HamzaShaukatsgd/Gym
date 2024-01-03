@@ -1,0 +1,110 @@
+/* .right-side{
+    background-image: url(../about_bg.png);
+    opacity: 0.2;
+} */
+.about-right {
+    position: relative; 
+    /* height: 40vh; */
+    /* width: 5%; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-right::before {    
+      content: "";
+      background-image: url(../about_bg.png);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+}
+
+
+@media screen and (max-width:998px) {
+    .section-aboutus{
+       height: 50vh;
+    }
+    .about-left{
+
+    }
+    .about-heading{
+        font-size: 1.8rem;
+    }
+    .about-paragraph{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width:688px) {
+    .section-aboutus{
+       height: 50vh;
+    }
+    .about-left{
+
+    }
+    .about-heading{
+        font-size: 1.8rem;
+    }
+    .about-paragraph{
+        font-size: 1.1rem;
+    }
+    .about-right{
+        background-position: center;
+    }
+    .about-img1{
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .section-aboutus{
+       min-height: 50vh;
+       flex-direction: column;
+       padding-bottom: 2rem;
+    }
+    .about-left{
+
+    }
+    .about-heading{
+        font-size: 1.8rem;
+    }
+    .about-paragraph{
+        font-size: 1.1rem;
+    }
+    .about-right{
+        background-position: center;
+    }
+    .about-img1{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .section-aboutus{
+       min-height: 50vh;
+       flex-direction: column;
+       padding-bottom: 2rem;
+    }
+    .about-left{
+
+    }
+    .about-heading{
+        font-size: 1.8rem;
+    }
+    .about-paragraph{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .about-right{
+        background-position: center;
+    }
+    .about-img1{
+        width: 8rem;
+    }
+}
