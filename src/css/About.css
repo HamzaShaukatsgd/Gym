@@ -99,7 +99,7 @@
     }
     .about-paragraph{
         font-size: 1.1rem;
-        text-align: center;
+        text-align: start;
     }
     .about-right{
         background-position: center;

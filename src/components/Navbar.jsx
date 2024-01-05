@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import "../css/Navbar.css"
 import { IoMdMenu } from "react-icons/io";
+import gymlogo from "../gymlogo.png";
+
 
 const Navbar = () => {
     const [showMenu ,setShowMenu] =useState(false);
@@ -8,7 +10,7 @@ const Navbar = () => {
     <nav className='' >
         <div className="desktop ">
            <div className="image">
-            <img src="./Pictures/gymlogo.png" alt="GYM Logo" />
+            <img src={gymlogo} alt="GYM Logo" />
            </div>
            <div className='nav-link-container'>
             <ul className='nav-link'>

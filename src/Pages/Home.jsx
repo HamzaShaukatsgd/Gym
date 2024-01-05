@@ -19,6 +19,7 @@ const Home = () => {
       <Singup/>
       <Gallery/>
       <Footer/>
+      
     </div>
   )
 }
