@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Gym/static/css/main.20510169.css",
-    "main.js": "/Gym/static/js/main.a7104c20.js",
+    "main.css": "/Gym/static/css/main.503c310c.css",
+    "main.js": "/Gym/static/js/main.03cc3ef9.js",
     "static/js/787.a2acccb1.chunk.js": "/Gym/static/js/787.a2acccb1.chunk.js",
     "static/media/consultant-bg.png": "/Gym/static/media/consultant-bg.ae0dd081a7b3a1cef05c.png",
     "static/media/gallery-bg.png": "/Gym/static/media/gallery-bg.12eb93249bd73a8689a3.png",
     "static/media/consultant-img.png": "/Gym/static/media/consultant-img.476ab5928b4291ce9102.png",
+    "static/media/Hero-img.png": "/Gym/static/media/Hero-img.b81e2015ae172e1dd140.png",
     "static/media/signup-bg.png": "/Gym/static/media/signup-bg.eb7eee2e2fee4258457f.png",
     "static/media/about_bg.png": "/Gym/static/media/about_bg.184c0ad7dda57d80558b.png",
     "static/media/g1.png": "/Gym/static/media/g1.4ef2a7056ca7e978f025.png",
@@ -17,12 +18,12 @@
     "static/media/bodybuilding3.png": "/Gym/static/media/bodybuilding3.0e32dbdb95b0b5034a3e.png",
     "static/media/logo.svg": "/Gym/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Gym/index.html",
-    "main.20510169.css.map": "/Gym/static/css/main.20510169.css.map",
-    "main.a7104c20.js.map": "/Gym/static/js/main.a7104c20.js.map",
+    "main.503c310c.css.map": "/Gym/static/css/main.503c310c.css.map",
+    "main.03cc3ef9.js.map": "/Gym/static/js/main.03cc3ef9.js.map",
     "787.a2acccb1.chunk.js.map": "/Gym/static/js/787.a2acccb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20510169.css",
-    "static/js/main.a7104c20.js"
+    "static/css/main.503c310c.css",
+    "static/js/main.03cc3ef9.js"
   ]
 }
