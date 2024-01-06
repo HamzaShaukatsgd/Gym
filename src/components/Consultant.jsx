@@ -4,9 +4,9 @@ import img_consultant from "../../src/consultant-img.png"
 
 const Consultant = () => {
   return (
-   <section className=' flex flex-col
+   <section className='  w-[100vw] min-h-[100vh] flex flex-col
    md:flex-row
-   lg:w-[100vw] h-[100vh]  bg-[#161616] sec-consultant lg:flex-row'>
+   lg:  bg-[#161616] sec-consultant lg:flex-row'>
       <div className=" order-2
       lg: consultant-left flex-1">
             <img className='flex justify-center items-center ' src={img_consultant} alt="img_consultant" />
