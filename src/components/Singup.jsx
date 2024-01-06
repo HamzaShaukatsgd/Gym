@@ -3,7 +3,9 @@ import signup_img from "../../src/signup-bg.png"
 
 const Singup = () => {
   return (
-    <section className='sec-signup flex bg-black w-[100vw] h-[100vh] text-white '>
+    <section className=' flex flex-col w-[100vw] min-h-[100vh] justify-center items-center pt-8 pb-8
+    sm:flex-row
+    lg:sec-signup  bg-black  text-white lg:flex-row '>
        <div className="signup-left flex-1 flex justify-center items-start flex-col p-10">
          <h1 className='text-1xl font-extrabold'>THE MONTH, EVERY</h1>
          <h1 className='text-6xl font-extrabold mt-8'>FRIDAY</h1>

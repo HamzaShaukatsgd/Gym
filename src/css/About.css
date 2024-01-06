@@ -27,7 +27,7 @@
 
 @media screen and (max-width:998px) {
     .section-aboutus{
-       height: 50vh;
+       min-height: 50vh;
     }
     .about-left{
 
@@ -43,7 +43,7 @@
 
 @media screen and (max-width:688px) {
     .section-aboutus{
-       height: 50vh;
+       min-height: 50vh;
     }
     .about-left{
 
