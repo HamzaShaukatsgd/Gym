@@ -1,11 +1,9 @@
 import React from "react";
 import "../css/Gallery.css";
-import g1 from "../g1.png";
-import g2 from "../g2.png";
-import g3 from "../g3.png";
-import g4 from "../g4.png";
+import gallery_images from "../js/galleryImg"
 
 const Gallery = () => {
+  console.log(gallery_images);
   return (
     <section className="sec-gallery w-[100vw] min-h-[50vh] bg-[#161616] text-white p-12">
       <h1 className="text-3xl text-white font-bold text-center mb-8">
@@ -18,38 +16,19 @@ const Gallery = () => {
            xl:grid-cols-5 
             "
       >
-        <div className="container22">
-          <img src={g4} alt="" className="w-[100%]" />{" "}
-          <di className="overlay"></di>
+        {
+        gallery_images.map(item=>{
+          return(
+            <div className="container22">
+          <img src={item.img} alt="gallery Iamges" className="w-[100%]" />
+          <di className="overlay">
+            {item.text}
+          </di>
         </div>
-        <div className="container22">
-          <img src={g1} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
-        <div className="container22">
-          <img src={g2} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
-        <div className="container22">
-          <img src={g2} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
-        <div className="container22">
-          <img src={g3} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
-        <div className="container22">
-          <img src={g2} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
-        <div className="container22">
-          <img src={g1} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
-        <div className="container22">
-          <img src={g4} alt="" className="w-[100%]" />
-          <di className="overlay"></di>
-        </div>
+          )
+        })
+       } 
+
       </div>
     </section>
   );

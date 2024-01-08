@@ -1,0 +1,17 @@
+img{
+width:100%;
+height: 100%;
+object-fit: cover;
+
+border-radius: 50%;
+
+}
+.Section-team{
+    background-image: url(../consultant-bg.png);
+    background-color: darkgray;
+    color: white;
+    background-color: #161616;
+}
+.team-description{
+    background-color: black;
+}
