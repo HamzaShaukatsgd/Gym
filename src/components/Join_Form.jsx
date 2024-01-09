@@ -1,8 +1,11 @@
 import React from 'react'
 import "../css/JoinForm.css"
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Join_Form = () => {
-  return (
+  return (<>
+     <Navbar/>
     <div className='Section-JoinForm min-h-[100vh] w-[100vw] flex justify-center items-center box-border'>
 
         <div className="form-container  w-[70vw] h-auto rounded    p-8" >
@@ -99,6 +102,8 @@ const Join_Form = () => {
         
       
     </div>
+    <Footer/>
+    </>
   )
 }
 
