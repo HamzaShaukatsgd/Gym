@@ -5,7 +5,7 @@ const Join_Form = () => {
   return (
     <div className='Section-JoinForm min-h-[100vh] w-[100vw] flex justify-center items-center box-border'>
 
-        <div className="form-container  w-[70vw] min-h-[80vh] rounded    p-8" >
+        <div className="form-container  w-[70vw] h-auto rounded    p-8" >
           <h1 className='text-gray-700 font-light text-3xl text-center
            md:text-4xl
            lg:text-5xl  '>Joining Form</h1>
