@@ -13,7 +13,7 @@ function App() {
         <Route exact path='/Team' element={<Team />} />
         <Route exact path="/Join_Form" element={<Join_Form/>}/>
         </Routes>
-        {/* <Join_Form/> */}
+        
       </div>
   );
 }

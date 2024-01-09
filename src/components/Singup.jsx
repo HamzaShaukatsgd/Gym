@@ -1,6 +1,7 @@
 import React from 'react'
 import signup_img from "../../src/signup-bg.png"
 
+
 const Singup = () => {
   return (
     <section className=' flex flex-col w-[100vw] min-h-[100vh] justify-center items-center pt-8 pb-8

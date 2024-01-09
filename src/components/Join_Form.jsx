@@ -13,22 +13,22 @@ const Join_Form = () => {
               <div className="Name-input ">
                 <div className="label common-label" >Name<span className='text-red-700'>*</span></div>
                 <div className="name-input1 flex w-[100%] gap-4">
-                    <input type="text" placeholder='First Name' className='w-[50%] common-input  '/>
-                    <input className='w-[50%] common-input ' type="text" placeholder='last Name '/>
+                    <input type="text" placeholder='First Name' className='w-[50%] common-input outline-none  '/>
+                    <input className='w-[50%] common-input outline-none' type="text" placeholder='last Name '/>
                 </div>
               </div>
               <div className="current-weight flex flex-col gap-2 ">
                 <label htmlFor="" className='
                 common-label'>Your Current Weight (lbs)<span className='text-red-700'>*</span></label>
-                <input type="text" placeholder='Plz Enter Current Weight' className='common-input' />
+                <input type="text" placeholder='Plz Enter Current Weight' className='common-input outline-none' />
               </div>
               <div className="desired-weight flex flex-col gap-2 ">
                 <label htmlFor="" className='common-label'>Height<span className='text-red-700'>*</span></label>
-                <input type="text" placeholder='Plz Enter Height' className='common-input' />
+                <input type="text" placeholder='Plz Enter Height' className='common-input outline-none' />
               </div>
               <div className="desired-weight flex flex-col gap-2 ">
                 <label htmlFor="" className='common-label'>Desired Weight (lbs)<span className='text-red-700'>*</span></label>
-                <input type="text" placeholder='Plz Enter Height' className='common-input' />
+                <input type="text" placeholder='Plz Enter Height' className='common-input outline-none' />
               </div>
               <div className="Trainer_name flex flex-col gap-2 ">
                 <label htmlFor="" className='common-label'>Trainer Name<span className='text-red-700'>*</span></label>
@@ -41,10 +41,10 @@ const Join_Form = () => {
               </div>
               <div className="Home-address flex flex-col gap-2">
               <label htmlFor="" className='common-label'>Home Addess<span className='text-red-700'>*</span></label>
-                <input type="text" placeholder='Plz Enter Street Address' className='common-input' />
+                <input type="text" placeholder='Plz Enter Street Address' className='common-input outline-none' />
                 <div className="State-input flex w-[100%]  mt-[0.5rem] gap-1
                 lg:gap-4">
-                    <input type="text" placeholder='City' className='w-[50%] common-input'/>
+                    <input type="text" placeholder='City' className='w-[50%] common-input outline-none'/>
                    
                     <select className='w-[50%] common-input' name="" id="">
                      <option value="">State</option>
@@ -54,7 +54,7 @@ const Join_Form = () => {
                 </div>
                 <div className="City-input1 flex w-[100%] gap-1 mt-[0.5rem] 
                 lg:gap-4">
-                    <input type="text" placeholder='Postal/Zip-Code' className='w-[50%] common-input'/>
+                    <input type="text" placeholder='Postal/Zip-Code' className='w-[50%] common-input outline-none'/>
                     <select className='w-[50%] common-input' name="" id="">
                      <option value="">City</option>
                      <option value="">Lahore</option>
@@ -64,12 +64,12 @@ const Join_Form = () => {
               </div>
               <div className="Email flex flex-col gap-1 ">
                 <label htmlFor="" className='common-label'>Email<span className='text-red-700'>*</span></label>
-                <input type="text" placeholder='Email' className='common-input' />
+                <input type="text" placeholder='Email' className='common-input outline-none' />
               </div>
               <div className="radio-personal">
                 <h1 className='common-label'>Do You Require Personal Trainer</h1>
                  <label htmlFor="" className='block common-label'>
-                    <input type="radio"  className='w-[5%] h-[0.8em] border-[0px]'/> Yes
+                    <input type="radio"  className='w-[5%] h-[0.8em] border-[0px] '/> Yes
                  </label>
                  <label htmlFor="" className='block common-label '>
                     <input type="radio" className='w-[5%] h-[0.8em] border-[0px]' /> No
@@ -78,13 +78,13 @@ const Join_Form = () => {
               <div className="radio-personal">
                 <h1 className='common-label'>Member Type<span className='text-red-700'>*</span></h1>
                  <label htmlFor="" className='block common-label'>
-                    <input type="radio"  className='w-[5%] h-[0.8em] border-[0px]'/> Regular
+                    <input type="radio"  className='w-[5%] h-[0.8em] border-[0px] outline-none'/> Regular
                  </label>
                  <label htmlFor="" className='block common-label '>
-                    <input type="radio" className='w-[5%] h-[0.8em] border-[0px]' /> Pro
+                    <input type="radio" className='w-[5%] h-[0.8em] border-[0px] outline-none' /> Pro
                  </label>
                  <label htmlFor="" className='block common-label '>
-                    <input type="radio" className='w-[5%] h-[0.8em] border-[0px]' /> Vip
+                    <input type="radio" className='w-[5%] h-[0.8em] border-[0px] outline-none' /> Vip
                  </label>
               </div>
               <div className='flex justify-center items-center'>

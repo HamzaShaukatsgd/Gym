@@ -67,7 +67,7 @@ const Team = () => {
                     <div className="text-[1rem] font-semibold
                     md:text-[1.3rem]
                     lg:text-2xl ">{item.time}</div>
-                    <button className=" pl-4 pr-4 pt-[4px] pb-[4px] text-[1rem]
+                    <button className=" pl-8 pr-8 pt-[4px] pb-[4px] text-[1rem]
                     md:pl-8 md:mr-8 md:mt-2 md:mb-2 md:text-[1.2rem]
                     lg:pl-8 lg:pr-8 lg:pt-2 lg:pb-2 bg-yellow-500 text-2xl font-bold border-[1px] border-solid border-black rounded-xl mt-4 hover:scale-105" onClick={()=>navigate("/Join_Form")}>
                       Join
