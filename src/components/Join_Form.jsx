@@ -30,6 +30,15 @@ const Join_Form = () => {
                 <label htmlFor="" className='common-label'>Desired Weight (lbs)<span className='text-red-700'>*</span></label>
                 <input type="text" placeholder='Plz Enter Height' className='common-input' />
               </div>
+              <div className="Trainer_name flex flex-col gap-2 ">
+                <label htmlFor="" className='common-label'>Trainer Name<span className='text-red-700'>*</span></label>
+                
+                <select className='w-[100%] common-input' name="" id="">
+                     <option value="">Ali Ahmed</option>
+                     <option value="">Sohail Akhter</option>
+                     <option value="">Muhammad Umair</option>
+                    </select>
+              </div>
               <div className="Home-address flex flex-col gap-2">
               <label htmlFor="" className='common-label'>Home Addess<span className='text-red-700'>*</span></label>
                 <input type="text" placeholder='Plz Enter Street Address' className='common-input' />
