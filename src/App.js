@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home';
 import Team from './components/Team';
@@ -13,6 +13,8 @@ function App() {
         <Route exact path='/Team' element={<Team />} />
         <Route exact path="/Join_Form" element={<Join_Form/>}/>
         </Routes>
+        
+         {/* <Join_Form/> */}
         
       </div>
   );
