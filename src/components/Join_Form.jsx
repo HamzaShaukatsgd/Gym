@@ -32,10 +32,10 @@ const Join_Form = () => {
     <>
       <Navbar />
       <div className="Section-JoinForm min-h-[100vh] w-[100vw] flex justify-center items-center box-border pt-6 pb-6 flex-col">
-        <div className="form-container  w-[70vw] h-auto rounded  
+        <div className="form-container  w-[90vw] h-auto rounded  
         p-2
-        md:p-8
-        lg:p-8 ">
+        md:p-8 md:w-[70vw]
+        lg:p-8 lg:w-[70vw]">
           <h1
             className="text-gray-700 font-light text-3xl text-center
            md:text-4xl
