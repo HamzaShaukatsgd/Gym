@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Gym/static/css/main.f6bd4fff.css",
+    "main.css": "/Gym/static/css/main.69188bcc.css",
     "main.js": "/Gym/static/js/main.699991c2.js",
     "static/media/team-pic.jpg": "/Gym/static/media/team-pic.f275ddf7e11a39003e27.jpg",
     "static/media/consultant-bg.png": "/Gym/static/media/consultant-bg.ae0dd081a7b3a1cef05c.png",
@@ -13,11 +13,11 @@
     "static/media/bodybuilding2.png": "/Gym/static/media/bodybuilding2.a6c770f59bf74e01f912.png",
     "static/media/bodybuilding3.png": "/Gym/static/media/bodybuilding3.0e32dbdb95b0b5034a3e.png",
     "index.html": "/Gym/index.html",
-    "main.f6bd4fff.css.map": "/Gym/static/css/main.f6bd4fff.css.map",
+    "main.69188bcc.css.map": "/Gym/static/css/main.69188bcc.css.map",
     "main.699991c2.js.map": "/Gym/static/js/main.699991c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6bd4fff.css",
+    "static/css/main.69188bcc.css",
     "static/js/main.699991c2.js"
   ]
 }
