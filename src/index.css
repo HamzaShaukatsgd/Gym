@@ -4,9 +4,9 @@
 
 @layer components{
     .common-input{
-          @apply text-[0.7rem] pl-2 rounded-md
-          md:p-2 md:text-[1.2rem]
-          lg:p-4 lg:text-2xl
+          @apply text-[0.7rem] p-4
+          md:p-2 md:text-[1.2rem] 
+          lg:p-4 lg:text-2xl 
     }
     .common-label{
       @apply  text-[0.7rem] mb-[2px]
