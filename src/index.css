@@ -4,7 +4,7 @@
 
 @layer components{
     .common-input{
-          @apply text-[0.7rem] p-4
+          @apply text-[1rem] p-3
           md:p-2 md:text-[1.2rem] 
           lg:p-4 lg:text-2xl 
     }

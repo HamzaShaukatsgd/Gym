@@ -3,7 +3,7 @@ import "../css/JoinForm.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 // import { useFormik } from 'formik'
-import { Formik, Field, Form, ErrorMessage } from "formik";
+import { Formik, Field, Form } from "formik";
 import * as yup from "yup";
 import JoinFormSchemas from "../Schemas/JoinFormSchemas";
 
