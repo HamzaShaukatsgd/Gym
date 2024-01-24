@@ -28,6 +28,12 @@ const ValidationSchema1 = yup.object({
 
 const Join_Form = () => {
   const [storeData, setStoreData] = useState([]);
+
+  const a=(...a)=>{
+      console.log("Ya A Ha",a);
+  }
+  a("Solid","Force","fsss");
+   
   return (
     <>
       <Navbar />
@@ -343,22 +349,21 @@ const Join_Form = () => {
               {storeData.map((item, index) => {
                 return (
                   <tr>
-                    <td className="p-2">
-                      {item.Name.first_name}
-                      {item.Name.last_name}
+                    <td className="p-2 text-center" >
+                    {item.Name.first_name}  {item.Name.last_name}
                     </td>
                     {/* <td className='p-2'>{item.last_name}</td> */}
-                    <td className="p-2">{item.desired_Weight}</td>
-                    <td className="p-2">{item.current_weight}</td>
-                    <td className="p-2">{item.height}</td>
-                    <td className="p-2">{item.home_address}</td>
-                    <td className="p-2">{item.State}</td>
-                    <td className="p-2">{item.City}</td>
-                    <td className="p-2">{item.Province}</td>
+                    <td className="p-2 text-center">{item.desired_Weight}</td>
+                    <td className="p-2 text-center">{item.current_weight}</td>
+                    <td className="p-2 text-center">{item.height}</td>
+                    <td className="p-2 text-center">{item.home_address}</td>
+                    <td className="p-2 text-center">{item.State}</td>
+                    <td className="p-2 text-center">{item.City}</td>
+                    <td className="p-2 text-center">{item.Province}</td>
 
-                    <td className="p-2">{item.email}</td>
-                    <td className="p-2">{item.MemberType}</td>
-                    <td className="p-2">{item.Require_Personal}</td>
+                    <td className="p-2 text-center">{item.email}</td>
+                    <td className="p-2 text-center">{item.MemberType}</td>
+                    <td className="p-2 text-center">{item.Require_Personal}</td>
                   </tr>
                 );
               })}
